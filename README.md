@@ -27,6 +27,11 @@ npm install
 npm run build
 ```
 
+- Register app as yours:
+```
+forge register
+```
+
 - Deploy your app by running:
 ```
 forge deploy
@@ -41,7 +46,7 @@ forge install
 - Use the `forge deploy` command when you want to persist code changes.
 - Use the `forge install` command when you want to install the app on a new site.
 - Once the app is installed on a site, the site picks up the new app changes you deploy without needing to rerun the install command.
-
+- Use the `forge register` so you will be owner of this app, if you skip this part, you will not be able to install or deploy this app.
 ## Support
 
 See [Get help](https://developer.atlassian.com/platform/forge/get-help/) for how to get help and provide feedback.
